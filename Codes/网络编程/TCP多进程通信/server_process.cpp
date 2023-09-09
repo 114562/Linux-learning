@@ -59,7 +59,7 @@ int main() {
     while (1) {
         // accept
         struct sockaddr_in caddr;
-        int len = sizeof(caddr);
+        socklen_t len = sizeof(caddr);
 
         int cfd = accept(lfd, (struct sockaddr*)&caddr, &len);
         if (cfd == -1) {

@@ -10,6 +10,10 @@
         "stdlib.h": "c",
         "shm.h": "c",
         "unistd.h": "c",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "cstdio": "cpp",
+        "cstring": "cpp",
+        "random": "cpp",
+        "limits": "cpp"
     }
 }
