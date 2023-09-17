@@ -14,6 +14,7 @@
         "cstdio": "cpp",
         "cstring": "cpp",
         "random": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "stdio.h": "c"
     }
 }
